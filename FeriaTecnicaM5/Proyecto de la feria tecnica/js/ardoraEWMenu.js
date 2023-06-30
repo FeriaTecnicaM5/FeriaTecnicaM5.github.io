@@ -9,6 +9,15 @@ $("#minus").on("click touchstart", function () {n-=0.1;$("#contedorTotal").css("
 $(".positionHelper").each(function(){$(this).css("transform","scale("+n+")");});});
 $(".fg-button").hover(function(){ $(this).removeClass("ui-state-default").addClass("ui-state-focus"); },function(){ $(this).removeClass("ui-state-focus").addClass("ui-state-default"); });
 });
+$(function () {
+     $("#dock").Fisheye({
+     maxWidth: 55,
+     items: "a", itemsText: "span", container: ".dock-container",
+     itemWidth: 50,
+     proximity: 60,
+     alignment : "right",
+     valign: "bottom", halign : "center"});
+});
 function cargar(url){
 var iframe = document.getElementById("showIframe");
 iframe.src = url;

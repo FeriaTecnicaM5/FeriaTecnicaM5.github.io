@@ -14,32 +14,29 @@
                .fg-button-icon-right .ui-icon { left: auto; right: .2em; margin-left: 0; }
                .fg-button-icon-solo { display:block; width:8px; text-indent: -9999px; }	 /* solo icon buttons must have block properties for the text-indent to work */
                .fg-button.ui-state-loading .ui-icon { background: url(spinner_bar.gif) no-repeat 0 0; }
-body {font-size:62.5%; margin:0; padding:10px; background-color:#008080;background-image:url(../menuFiles/descarga.jpg); background-position:inherit; background-repeat:inherit}
+body {font-size:62.5%; margin:0; padding:10px; background-color:#FFFFFF;background-image:url(../menuFiles/OIP.jpg); background-position:center; background-repeat:inherit}
 #showIframe{width:100%; height:100%; border:none;}
 #contedorTotal{ 
    position:absolute;
-   width:1270px;
+   width:950px;
    left:50%;
-   margin-left:-635px;
+   margin-left:-475px;
    height:auto;
    border-style:solid;
    border-width:thin;
-   border-color:#FFFFFF;
+   border-color:#000000;
    -webkit-border-radius: 6px; border-radius: 6px;
 -webkit-box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);
-   background-color:#008080;
-   background-image:url(../menuFiles/descarga (1).jpg); 
+   background-color:#FFFFFF;
+   background-image:url(../menuFiles/OIP.jpg); 
    background-position:center;
    background-repeat:repeat;
 transform-origin: center top;}
 #cabeceira{ 
-   font-family:Verdana, Geneva, sans-serif;
-   background-image:url("../menuFiles/descarga (1).png");
-   background-position:top;
-   background-repeat:repeat-x;
-   background-color:#C0C0C0;
-   height:30px;
-   padding:0;
+   font-family:Georgia, Serif;
+   background-color:#E0C267;
+   height:50px;
+   padding:5px;
    -webkit-border-radius: 6px; border-radius: 6px;
    border-style:solid;
    border-width:thin;
@@ -47,37 +44,36 @@ transform-origin: center top;}
 }
 #titulo{
 text-shadow:2px 4px 2px rgba(0,0,0,0.6);
-float:left; font-size:20px; font-weight:bolder;  color:#FFFFFF;
+float:left; font-size:28px;  color:#000000;
 }
 #subtitulo{
-float:right; font-size:10px;  color:#FFFFFF;
+float:right; font-size:12px;  color:#000000;
 }
 #peText{
-float:left; font-size:20px; color:#00FF00;
+float:left; font-size:12px; color:#FFFFFF;
 }
 #ArdoraIframe{
    background-color:#FFFFFF;
-   height:600px;
+   height:450px;
    -webkit-border-radius: 6px; border-radius: 6px;
-   border-style:none;
+   border-style:solid;
    border-width:thin;
-   border-color:#FFFF80;
+   border-color:#000000;
       margin-top:25px;
 }
 #pe_pax{display:flex;justify-content:center;
-   font-family:Verdana, Geneva, sans-serif;
-   background-image:url("../menuFiles/border2.gif");
-   background-position:top;
-   background-repeat:repeat-x;
-   background-color:#008080;
-   height:20px;
-   padding:5px;
-   border-style:none;
+font-family:Georgia, Serif;background-color:#000000;height:30px;padding:5px;
+   border-style:solid;
    border-width:thin;
    border-color:#000000;
    -webkit-border-radius: 6px; border-radius: 6px;
-   font-weight:bolder;
 }
-.ardorabutton{font-family:Ardora_arrows;float: left;font-size:20px;background: rgba(255, 0, 0, 0);border: none;width: auto;color:#00FF00;}
-.ardorabutton:hover{color:#C0C0C0;}
+#dock {position:fixed; bottom:5px;  width:100%;}
+a.dock-item { display: block; width: 50px; position: absolute; bottom: 0; text-align: center; text-decoration: none; color: #333;}
+#dock li{list-style:none;}
+.dock-item span { display: none; text-align:center; background:#000000; font:Geneva, Arial, Helvetica, sans-serif; font-size:14px; color: #fff; padding: 3px 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; }
+.dock-item img { border: 0; margin: 5px 10px 0px; width: 100%; }
+.dock-container { position: relative; top: -8px; height: 50px; padding-left: 20px; }
+.ardorabutton{font-family:Ardora_arrows;float: left;font-size:30px;background: rgba(255, 0, 0, 0);border: none;width: auto;color:#FFFFFF;}
+.ardorabutton:hover{color:#E0C267;}
 #barbutton{width:auto;float:left;position:absolute;left: 0;}
